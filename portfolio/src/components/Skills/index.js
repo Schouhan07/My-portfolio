@@ -139,6 +139,23 @@ const Skills = () => {
           </Skill>
         ))}
       </SkillsContainer>
+      {/* <SkillsContainer>
+        {skills.map((item)=>(
+          <Skill>
+            <SkillsTitle>{item.title}</SkillsTitle>
+            <SkillList>
+              {
+                item.skills.map((skill)=>(
+                  <SkillItem>
+                    <SkillImage src={skill.image}/>
+                    {skill.name}
+                  </SkillItem>
+                ))
+              }
+            </SkillList>
+          </Skill>
+        ))}
+      </SkillsContainer> */}
     </Wrapper>
     </Container>
   )

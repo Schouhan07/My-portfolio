@@ -8,7 +8,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Schouhan07",
     resume:
-      "https://drive.google.com/file/d/1Q8mzuqS4N3G4PEKUYaAHN_dPldPIVrxE/view?usp=sharing",
+      "https://drive.google.com/file/d/19Vpsyh6DRI5eojhe6dxKxN3VLLHoQyN1/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sahil-chouhan-0558a6234/",
     twitter: "https://twitter.com/",
     insta: "https://www.instagram.com/",
@@ -17,7 +17,7 @@ export const Bio = {
   
   export const skills = [
     {
-      title: "Frontend",
+      title: "FRONTEND",
       skills: [
         {
           name: "React Js",
@@ -56,6 +56,7 @@ export const Bio = {
         },
       ],
     },
+
     {
       title: "Coursework",
       skills: [
@@ -77,11 +78,7 @@ export const Bio = {
         //   image:
         //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         // },
-        {
-          name: "MySQL",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
+       
         {
           name: "Data structures",
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMY1xIFPuWKKzJ9x7JdQvq5Toir3XmxZ-MCg&s",
@@ -105,11 +102,6 @@ export const Bio = {
       title: "Others",
       skills: [
         {
-          name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-        },
-        {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
@@ -129,11 +121,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
-        // {
-        //   name: "Postman",
-        //   image:
-        //     "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        // },
+        {
+          name: "Postman",
+          image:
+            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+        },
         // {
         //   name: "Adobe XD",
         //   image:
@@ -146,6 +138,32 @@ export const Bio = {
         // },
       ],
     },
+    {
+    title: "BACKEND",
+      skills: [
+        {
+          name: "Node Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+CiAgPHBhdGggZmlsbD0iIzMxZWMzNyIgZD0iTTc5LjMyOSAyMTEuNjc4Yy00LjI2NSAyLjQ3Ny00Ljg5OSAyLjQ3Ny04Ljc5NiAwbC0xOC4xNC0xMC41MjJjLTQuMjY0LTIuNDc3LTguNzk1LTguNTM4LTguNzk1LTEzLjAzMVYxMjMuNjVjMCAtNC41MzcgMy40MjYtNi4xNDUgOC4yNi04LjUzNmwxOC4zNjgtMTAuODNjNC4yNjUtMi40NzcgOC4xOTItMi40NzcgMTIuNDYtLjAwMWwxOC4zNiAxMC44M2M0Ljg0IDIuMzkyIDguMjU0IDMuOTk3IDguMjU0IDguNTM2djIwLjk4YzAgNC41MzctMy44MzkgMTAuNTk4LTguMDYyIDEzLjAzMSBsLTE4LjE0IDEwLjUyMmM0LjI2NyAyLjQ3NyA4LjY0MyA0LjEwOCAxMi40NjguMDAxbDE4LjM2LTEwLjgyYzQuODQzLTIuMzkyIDguNzQ5LTguNDgzIDguNzQ5LTEzLjAzMnYtMzEuMzljMC00LjU2Ni0zLjQyNy02LjE4Mi04LjI2LTguNjA2TDEwMS42IDI1LjA2Yy00LjI2Ny0yLjQ3Ny04Ljg0OS0yLjQ3Ny0xMi43MTYtLjAwMWwtMTguMzYgMTAuODI5Yy00Ljg0IDMuOTYyLTguMjU0IDguNDYtOC4yNTQgMTMuMDA2djIwLjk4YzAgNC41MzcgMy44MzcgMTAuNjA4IDguMDYyIDEzLjAzMmwxOC4xNCAxMC41MjJ6Ii8+CiAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzMS41MyAxNTIuNTk2bC00Ny43MDYtMjcuNzY3Yy00LjI2Ny0yLjQ3Ny03LjEwNC03LjA4Ni03LjEwNC0xMi4wMzF2LTU1LjUzN2MwLTUuNDEzIDMuMzU2LTkuNTIxIDcuMDQxLTEyLjAzbDc4LjM3NS00NS4yMjJjNC42NjItMi42OTIgMTAuNDcyLTIuNjk2IDE1LjA2MiAwbDc4LjI2IDQ1LjIyMmM0LjY2MSAyLjY5MyA3LjEwNSA3LjIyNyA3LjEwNSAxMi4wMzF2NTUuNTM3YzAgNS40MTMtMy4zNTQgOS41MjEtNy4wNDIgMTIuMDMxbC03OC4zNjkgNDUuMjE4Yy00LjY2MSAyLjY5My0xMC40NzIgMi42OTYtMTUuMDYyIDB6bTIuMTQyLTExLjQ2N2w3OC4yNy00NS4yMjFjNC42NTktMi42OTMgNy4xMDQtNy4yMjYgNy4xMDQtMTIuMDMydi01NS41MzZjMC01LjQxNC0zLjM1LTkuNTIxLTcuMDQyLTEyLjAzbC03OC4zNi00NS4yMjJjLTQuNzA3LTIuNjkzLTExLjA4Ny0yLjY5My0xNS43OTUgMGwtNzguMzc2IDQ1LjIyMmMtNC42NTkgMi42OTMtNy4xMDMgNy4yMjYtNy4xMDMgMTIuMDN2NTUuNTM2YzAgNS40MTMgMy4zNTQgOS41MjEgNy4wNCAxMi4wMzFsNzguMzc1IDQ1LjIxOGM0LjcwNyAyLjY5MyAxMS4wODcgMi42OTMgMTUuNzk1IDB6Ii8+Cjwvc3ZnPgo=",
+        },
+        
+        {
+          name: "Express",
+          image:
+            "data:image/png;base64,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",
+        },
+        {
+          name: "MongoDB",
+          image:
+            "data:image/png;base64,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",
+        },
+        {
+          name: "MySQL",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        },
+      ],
+      }
   ];
   
   export const experiences = [
@@ -372,8 +390,8 @@ export const Bio = {
     // },
     // {
     //   id: 10,
-    //   title: "Job Finding App",
-    //   date: "Jun 2023 - Jul 2023",
+    //   title: "Smart Delivery App",
+    //   date: "Nov2024",
     //   description:
     //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
     //   image:
@@ -385,10 +403,10 @@ export const Bio = {
     // },
     // {
     //   id: 4,
-    //   title: "Whatsapp Clone",
-    //   date: "Jul 2021",
+    //   title: "Smart Food Recommendation app",
+    //   date: "Nov 2024",
     //   description:
-    //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+    //     "Built a MERN application with an ML-powered recommendation system achieving 85% accuracy in personalized suggestions. Optimized backend with Node.js and MongoDB, enhancing user engagement by 35%.",
     //   image:
     //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
@@ -435,19 +453,19 @@ export const Bio = {
       github: "https://github.com/rishavchanda/Quiz-Earn",
       webapp: "https://github.com/rishavchanda/Quiz-Earn",
     },
-    // {
-    //   id: 8,
-    //   title: "Face Recognition",
-    //   date: "Jan 2021",
-    //   description:
-    //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    //   image:
-    //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    //   category: "machine learning",
-    //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    // },
+    {
+      id: 8,
+      title: "Ecommerce",
+      date: "Nov 2024",
+      description:
+        "Developed a full-stack web application showcasing different products, integrating advanced features like search, filtering, pagination, and cart management. Built robust backend functionalities using Node.js and Express for seamless user experience.",
+      image:
+        "https://i.ytimg.com/vi/4jW2-q8FUTY/maxresdefault.jpg",
+      tags: ["React.js", "MongoDB", "Express", "Node.js"],
+      category: "web app",
+      // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      // webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    },
   ];
   
   export const TimeLineData = [
